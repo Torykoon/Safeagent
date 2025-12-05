@@ -58,18 +58,18 @@ export const sidebarData: SidebarData = {
           icon: ListTodo,
         },
         {
-          title: '위험성평가',
+          title: 'TBM문서관리',
           url: '/apps',
           icon: Package,
         },
         {
-          title: '사고사례',
+          title: 'Agent 채팅',
           url: '/chats',
           icon: MessagesSquare,
         },
         {
-          title: 'Users',
-          url: '/users',
+          title: '사고사례',
+          url: '/cases',
           icon: Users,
         },
         {
