@@ -3,13 +3,11 @@ import {
   Search as SearchIcon,
   LayoutGrid,
   List as ListIcon,
-  Filter,
   Plus,
   FileText,
   Download,
   Printer,
   Loader2,
-  MoreVertical,
   Maximize2,
   CheckCircle2,
   AlertCircle
@@ -37,7 +35,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog'
-import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card'
+import { Card, CardContent, CardFooter } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Skeleton } from '@/components/ui/skeleton'
 import { Separator } from '@/components/ui/separator'
@@ -222,7 +220,7 @@ export function Apps() {
 
   return (
     <>
-      <Header sticky>
+      <Header fixed>
         <div className='flex w-full items-center justify-between gap-4 px-4'>
           {/* 왼쪽: 타이틀 & 검색 */}
           <div className='flex items-center gap-4'>

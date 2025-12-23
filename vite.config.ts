@@ -14,6 +14,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  server: {
+    host: true, // Allow external network access (0.0.0.0)
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
